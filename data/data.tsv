@@ -1,46 +1,46 @@
-letter	frequency	median
-#love	12000	4000
-#instagood	14000	3000
-#me	2000	1000
-#tbt	5000	2100
-#cute	8000	4333
-#follow	1000	421
-#followme	10000	1231
-#photooftheday	4000	2211
-#happy	1000	900
-#tagforlikes	12000	9310
-#beautiful	2000	1211
-#self	2500	1313
-#girl	2100	1223
-#picoftheday	1000	123
-#like4like	8000	5433
-#smile	5000	1231
-#friends	2000	1111
-#fun	10000	3321
-#like	2000	1121
-#fashion	1000	123
-#summer	4000	3112
-#instadaily	4500	3122
-#igers	9000	5333
-#instalike	3000	1231
-#food	4000	2311
-#swag	10000	5331
-#amazing	6000	5433
-#tflers	6000	4332
-#follow4follow	3000	1231
-#bestoftheday	2000	1231
-#likeforlike	8000	4453
-#instamood	1000	123
-#style	6000	4431
-#wcw	3000	2134
-#family	1500
-#141	200	111
-#f4f	430	311
-#nofilter	5000	3112
-#lol	4000	2312
-#life	2000	1123
-#pretty	1000	211
-#repost	6000	4331
-#hair	2000	1412
-#my	7000	6431
-#sun	5000	3333
+letter	frequency	median	language
+#love	12000	4000	English
+#instagood	14000	3000	English
+#me	2000	1000	English
+#tbt	5000	2100	English
+#cute	8000	4333	English
+#follow	1000	421	English
+#followme	10000	1231	English
+#photooftheday	4000	2211	English
+#happy	1000	900	English
+#tagforlikes	12000	9310	English
+#beautiful	2000	1211	English
+#self	2500	1313	English
+#girl	2100	1223	English
+#picoftheday	1000	123	English
+#like4like	8000	5433	English
+#smile	5000	1231	English
+#friends	2000	1111	English
+#fun	10000	3321	English
+#like	2000	1121	English
+#fashion	1000	123	English
+#summer	4000	3112	English
+#instadaily	4500	3122	English
+#igers	9000	5333	English
+#instalike	3000	1231	English
+#food	4000	2311	English
+#swag	10000	5331	English
+#amazing	6000	5433	English
+#tflers	6000	4332	English
+#follow4follow	3000	1231	English
+#bestoftheday	2000	1231	English
+#likeforlike	8000	4453	English
+#instamood	1000	123	English
+#style	6000	4431	English
+#wcw	3000	2134	English
+#family	1500	English
+#141	200	111	English
+#f4f	430	311	English
+#nofilter	5000	3112	English
+#lol	4000	2312	English
+#life	2000	1123	English
+#pretty	1000	211	English
+#repost	6000	4331	English
+#hair	2000	1412	English
+#my	7000	6431	English
+#sun	5000	3333	English

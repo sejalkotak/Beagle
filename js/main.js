@@ -3,12 +3,13 @@
 
   function showInfo(d) {
       metaEl.innerHTML = '<div id="content">' +d.letter+'<br>' +
+                         '<div class="mentionCount">'+ d.frequency +'</div>' +
                          '<span id="details">' +
                          '<p>' +
-                         '<div>Mention Count: ' +d.frequency+ '</div>' +
-                         '<div>Median count: '+ d.median+'</div>' +
+                         '<div class="data">Median count: '+ d.median+'</div>' +
+                        '<div class="data">Language: '+ d.language+'</div>' +
                          '</p>' +
-                         '<p class="small">Median time in office: 7.5 years (approx)</p><p class="blob"></p></span></div>';
+                         '<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The human brain cell can hold 5 times as much information as the Encyclopedia Britannica.</p>&mdash; OMG Facts (@OMGFacts) <a href="https://twitter.com/OMGFacts/status/683660444213612544">January 3, 2016</a></blockquote> ';
   }
 
   function hideInfo(d){
