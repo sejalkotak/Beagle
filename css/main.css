@@ -1,0 +1,27 @@
+body {
+  font: 10px sans-serif;
+}
+
+path, line {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #c2c2c2;
+    stroke-opacity: 1;
+    shape-rendering: crispedges;
+    stroke-dasharray: 2,2;
+}
+
+.bar {
+  fill: #CDD7B6;
+}
+.median {
+  fill: #E78924;
+}
+
+.bar:hover {
+  fill: #AABA85 ;
+}
+
+.x.axis path {
+  display: none;
+}
