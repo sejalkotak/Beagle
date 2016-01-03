@@ -9,7 +9,17 @@
                          '<div class="data">Median count: '+ d.median+'</div>' +
                         '<div class="data">Language: '+ d.language+'</div>' +
                          '</p>' +
-                         '<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The human brain cell can hold 5 times as much information as the Encyclopedia Britannica.</p>&mdash; OMG Facts (@OMGFacts) <a href="https://twitter.com/OMGFacts/status/683660444213612544">January 3, 2016</a></blockquote> ';
+                         '<div class="hide" id="twCont">' +
+                         d.tweet +
+                         '</div>';
+                         twttr.widgets.load();
+
+                         twttr.events.bind(
+                           'loaded',
+                           function (event) {
+                              document.getElementById('twCont').classList.remove('hide');
+                           }
+                         );
   }
 
   function hideInfo(d){
