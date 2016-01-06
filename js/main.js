@@ -1,30 +1,50 @@
 (function(){
-  var margin, width, chartWidth, height, x, y, xAxis, yAxis, svg, metaEl;
+  var counter = 0, bars, stopped, currentEl, prevEl,
+  margin, width, chartWidth, height, x, y, xAxis, yAxis, svg, metaEl, timer, dataLength, dataItems, rects;
 
-  function showInfo(d) {
-      metaEl.innerHTML = '<div id="stats">' +
-                         '<div id="details">' +
-                         '<img class="heart" src="images/heart.svg" alt="Kiwi standing on oval">' +
-                         '<div class="love">' +
-                         d.love +
-                         '</div>' +
-                         '<div class="description">' +
-                         d.description +
-                         '</div>' +
-                         '<div class="pByC"> Protein - ' +
-                         d.proteinByCal +
-                         ' gm/100cal</div>' +
-                         '</div>' +
-                         '<div id="name">' +d.name+'</div>' +
-                         '<div id="mainCount">'+ d.protein +'gm</div>' +
-                         '</div>' +
-                         '<p>' +
-                         '</p>';
+  $.fn.triggerSVGEvent = function(eventName, options) {
+    var event = document.createEvent('SVGEvents');
+    event.initEvent(eventName,true,true);
+    this[0].dispatchEvent(event, options);
+    return $(this);
+  };
 
+  function showInfo(d, index, j, skip) {
+    stopped = false;
+    metaEl.innerHTML = '<div id="stats">' +
+    '<div id="details">' +
+    '<img class="heart" src="images/heart.svg" alt="Kiwi standing on oval">' +
+    '<div class="love">' +
+    (d.love || '') +
+    '</div>' +
+    '<div class="description">' +
+    (d.description || '') +
+    '</div>' +
+    '<div class="pByC"> Protein - ' +
+    (d.proteinByCal || '') +
+    ' gm/100cal</div>' +
+    '</div>' +
+    '<div id="name">' +d.name+'</div>' +
+    '<div id="mainCount">'+ d.protein +'gm</div>' +
+    '</div>' +
+    '<p>' +
+    '</p>';
+    $(this).css('fill', '#FF686B');
+
+    if(!skip){
+      hideInfo.call(currentEl, currentEl.__data__);
+      prevEl = currentEl;
+      stopped = true;
+      clearTimeout(timer);
+    }
   }
 
   function hideInfo(d){
-      // metaEl.innerHTML = '';
+    $(this).css('fill', '#FFA69E');
+    if(stopped) {
+      stopped = false;
+      initTimer();
+    }
   }
 
   function initVars() {
@@ -58,6 +78,8 @@
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     jQuery.get('data/data.json').done(function (data) {
+      dataItems = data;
+      dataLength = data.length;
       x.domain(data.map(function(d) { return d.name; }));
       y.domain([0, d3.max(data, function(d) { return d.protein; })]);
 
@@ -78,7 +100,7 @@
       .data(data)
       .enter();
 
-      container.append("rect")
+      rects = container.append("rect")
       .attr("class", "bar")
       .attr("x", function(d) { return x(d.name); })
       .attr("width", x.rangeBand())
@@ -93,12 +115,27 @@
       .attr("height", 3)
       .attr("x", function(d) { return x(d.name); })
       .attr("y", function(d) { return y(d.proteinByCal);  });
+
+      initTimer();
     });
+  }
+
+  function initTimer(){
+    var index;
+    bars = rects[0];
+    timer = setInterval(function () {
+        index = counter++ % dataLength
+        prevEl = currentEl || bars[0];
+        currentEl = bars[index];
+        hideInfo.call(prevEl, prevEl.__data__);
+        showInfo.call(currentEl, currentEl.__data__, index, 0, true);
+    }, 3000);
   }
 
   function init() {
     initVars();
     renderChart();
+
   }
 
   init();
