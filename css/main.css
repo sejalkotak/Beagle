@@ -37,18 +37,26 @@ text {
 }
 
 #desc {
-  margin: 50px 50px 10px 50px;
+    padding: 30px 50px;
+    background: #F7F7F7;
+    color: #c0c0c0;
 }
+
 #desc p {
-    line-height: 1.5;
+    line-height: 1.4;
+    width: 960px;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 10px 0;
 }
+
 #header {
-  font-size: 18px;
-  font-weight: 600;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 div#container {
-    margin: 80px 0 0 30px;
+    padding: 50px 0 0 30px;
 }
 
 #container > div {
@@ -58,23 +66,43 @@ div#container {
 #meta {
     height: 470px;
     position: relative;
-    width: 250px;
+    width: 400px;
+    box-sizing: border-box;
+    padding-left: 50px;
 }
+
 #stats {
     position: absolute;
     bottom: 0;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
+    color: #464646;
+}
+.heart {
+    height: 16px;
+    width: 16px;
 }
 #details {
-  font-size: 10pt;
-  padding: 0;
-  margin: 0;
+    font-family: georgia;
+    font-style: italic;
+    color: #a0a0a0;
+    margin-bottom: 40px;
 }
+.love {
+    margin-bottom: 10px;
+    font-weight: bold;
+    fill: #FF686B;
+    stroke-width: 1px;
+    stroke: #FF686B;
+    stroke-opacity: 1;
+    shape-rendering: crispedges;
+    stroke-dasharray: 2,2;
+}
+.description {
+    margin-bottom: 10px;
+}
+
 #name {
-    font-size: 20pt;
-    line-height: 15pt;
-    color: #777;
+    font-size: 28px;
+    font-weight: 300;
 }
 #mainCount {
     font-size: 50pt;
@@ -88,8 +116,8 @@ div#container {
 
 
 #separator {
-    height: 460px;
-    width: 5px;
-    margin-right: 30px;
-    margin-top: 25px;
+    height: 520px;
+    width: 0px;
+    border-left: 1px solid #e6e6e6;
+    margin-top: -50px;
 }

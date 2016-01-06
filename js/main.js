@@ -3,10 +3,8 @@
 
   function showInfo(d) {
       metaEl.innerHTML = '<div id="stats">' +
-                         '<div id="name">' +d.name+'</div>' +
-                         '<div id="mainCount">'+ d.protein +'gm</div>' +
-                         '</div>' +
                          '<div id="details">' +
+                         '<img class="heart" src="images/heart.svg" alt="Kiwi standing on oval">' +
                          '<div class="love">' +
                          d.love +
                          '</div>' +
@@ -16,6 +14,9 @@
                          '<div class="pByC"> Protein/Cal - ' +
                          d.proteinByCal +
                          'gm/100cal</div>' +
+                         '</div>' +
+                         '<div id="name">' +d.name+'</div>' +
+                         '<div id="mainCount">'+ d.protein +'gm</div>' +
                          '</div>' +
                          '<p>' +
                          '</p>';
@@ -27,7 +28,7 @@
   }
 
   function initVars() {
-    margin = {top: 100, right: 15, bottom: 30, left: 40};
+    margin = {top: 100, right: 50, bottom: 30, left: 40};
     width = 960 - margin.left - margin.right;
     height = 500 - margin.top - margin.bottom;
     chartWidth = width + margin.left + margin.right;
