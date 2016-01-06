@@ -79,6 +79,13 @@ div#container {
 .heart {
     height: 16px;
     width: 16px;
+    fill: #FF686B;
+    stroke-width: 1px;
+    stroke: #FF686B;
+    stroke-opacity: 1;
+    shape-rendering: crispedges;
+    stroke-dasharray: 2,2;
+    margin-bottom: 5px;
 }
 #details {
     font-family: georgia;
@@ -87,17 +94,11 @@ div#container {
     margin-bottom: 40px;
 }
 .love {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
-    fill: #FF686B;
-    stroke-width: 1px;
-    stroke: #FF686B;
-    stroke-opacity: 1;
-    shape-rendering: crispedges;
-    stroke-dasharray: 2,2;
 }
 .description {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #name {

@@ -11,9 +11,9 @@
                          '<div class="description">' +
                          d.description +
                          '</div>' +
-                         '<div class="pByC"> Protein/Cal - ' +
+                         '<div class="pByC"> Protein - ' +
                          d.proteinByCal +
-                         'gm/100cal</div>' +
+                         ' gm/100cal</div>' +
                          '</div>' +
                          '<div id="name">' +d.name+'</div>' +
                          '<div id="mainCount">'+ d.protein +'gm</div>' +
