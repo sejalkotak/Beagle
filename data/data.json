@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Tempeh",
+        "quantity": "1 cup",
+        "protein": 31,
+        "proteinByCal": 9.6
+    },
+    {
+        "name": "Soybeans, cooked",
+        "quantity": "1 cup",
+        "protein": 29,
+        "proteinByCal": 9.6,
+        "love": "Zuchinni stuffed with Soyabeans",
+        "description": "The freshness of zucchini topped with sauteed soya and baked lovely. A snack for a perfect evening!"
+    },
+    {
+        "name": "Seitan",
+        "quantity": "3 ounces",
+        "protein": 21,
+        "proteinByCal": 17.5
+    },
+    {
+        "name": "Lentils, cooked",
+        "quantity": "1 cup",
+        "protein": 18,
+        "proteinByCal": 7.8,
+        "love": "Khichdi",
+        "description": "Khichdi is an Indian preparation made from rice and lentils. I add my favorite veggies to it like beans, carrot, onion, with lots of corriander topping."
+
+    },
+    {
+        "name": "Black beans, cooked",
+        "quantity": "1 cup",
+        "protein": 15,
+        "proteinByCal": 6.7,
+        "love": "Black Bean Dal",
+        "description": "Curried black beans with tomatoes, onions and spices"
+    },
+    {
+        "name": "Kidney beans, cooked",
+        "quantity": "1 cup",
+        "protein": 15,
+        "proteinByCal": 6.8,
+        "love": "Rajma Chawal"
+    },
+    {
+        "name": "Chickpeas, cooked",
+        "quantity": "1 cup",
+        "protein": 15,
+        "proteinByCal": 5.4
+    },
+    {
+        "name": "Pinto beans, cooked",
+        "quantity": "1 cup",
+        "protein": 15,
+        "proteinByCal": 6.3
+    },
+    {
+        "name": "Lima beans, cooked",
+        "quantity": "1 cup",
+        "protein": 15,
+        "proteinByCal": 6.8
+    },
+    {
+        "name": "Black-eyed peas, cooked",
+        "quantity": "1 cup",
+        "protein": 13,
+        "proteinByCal": 6.7
+    },
+    {
+        "name": "Veggie burger",
+        "quantity": "1 patty",
+        "protein": 13,
+        "proteinByCal": 18.6
+    },
+    {
+        "name": "Veggie baked beans",
+        "quantity": "1 cup",
+        "protein": 12,
+        "proteinByCal": 5
+    },
+    {
+        "name": "Tofu, firm",
+        "quantity": "4 ounces",
+        "protein": 11,
+        "proteinByCal": 10.6
+    },
+    {
+        "name": "Bagel",
+        "quantity": "1 med. (3.5 oz)",
+        "protein": 10,
+        "proteinByCal": 3.9
+    },
+    {
+        "name": "Quinoa, cooked",
+        "quantity": "1 cup",
+        "protein": 8,
+        "proteinByCal": 3.7
+    },
+    {
+        "name": "Peas, cooked",
+        "quantity": "1 cup",
+        "protein": 8,
+        "proteinByCal": 6.6
+    },
+    {
+        "name": "Textured Vegetable, cooked",
+        "quantity": "1/2 cup",
+        "protein": 8,
+        "proteinByCal": 15
+    },
+    {
+        "name": "Peanut butter",
+        "quantity": "2 Tbsp",
+        "protein": 8,
+        "proteinByCal": 4.1
+    },
+    {
+        "name": "Spaghetti, cooked",
+        "quantity": "1 cup",
+        "protein": 8,
+        "proteinByCal": 3.7
+    },
+    {
+        "name": "Almonds",
+        "quantity": "1/4 cup",
+        "protein": 8,
+        "proteinByCal": 3.7
+    },
+    {
+        "name": "Soy milk, commercial, plain",
+        "quantity": "1 cup",
+        "protein": 7,
+        "proteinByCal": 7
+    },
+    {
+        "name": "Whole wheat bread",
+        "quantity": "2 slices",
+        "protein": 7,
+        "proteinByCal": 5.2
+    },
+    {
+        "name": "Almond butter",
+        "quantity": "2 Tbsp",
+        "protein": 7,
+        "proteinByCal": 3.4
+    },
+    {
+        "name": "Soy yogurt, plain",
+        "quantity": "8 ounces",
+        "protein": 6,
+        "proteinByCal": 4
+    },
+    {
+        "name": "Bulgur, cooked",
+        "quantity": "1 cup",
+        "protein": 6,
+        "proteinByCal": 3.7
+    },
+    {
+        "name": "Sunflower seeds",
+        "quantity": "1/4 cup",
+        "protein": 6,
+        "proteinByCal": 3.3
+    },
+    {
+        "name": "Cashews",
+        "quantity": "1/4 cup",
+        "protein": 5,
+        "proteinByCal": 2.7
+    },
+    {
+        "name": "Spinach, cooked",
+        "quantity": "1 cup",
+        "protein": 5,
+        "proteinByCal": 4.8
+    },
+    {
+        "name": "Broccoli, cooked",
+        "quantity": "1 cup",
+        "protein": 4,
+        "proteinByCal": 4
+    }
+]

@@ -2,34 +2,28 @@
   var margin, width, chartWidth, height, x, y, xAxis, yAxis, svg, metaEl;
 
   function showInfo(d) {
-      metaEl.innerHTML = '<div id="content">' +d.letter+'<br>' +
-                         '<div class="mentionCount">'+ d.frequency +'</div>' +
-                         '<span id="details">' +
+      metaEl.innerHTML = '<div id="stats">' +
+                         '<div id="name">' +d.name+'</div>' +
+                         '<div id="mainCount">'+ d.protein +'gm</div>' +
+                         '</div>' +
+                         '<div id="details">' +
+                         '<div class="love">' +
+                         d.love +
+                         '</div>' +
+                         '<div class="description">' +
+                         d.description +
+                         '</div>' +
+                         '<div class="pByC"> Protein/Cal - ' +
+                         d.proteinByCal +
+                         'gm/100cal</div>' +
+                         '</div>' +
                          '<p>' +
-                         '<div class="data">Median count: '+ d.median+'</div>' +
-                        '<div class="data">Language: '+ d.language+'</div>' +
-                         '</p>' +
-                         '<div class="hide" id="twCont">' +
-                         d.tweet +
-                         '</div>';
-                         twttr.widgets.load();
+                         '</p>';
 
-                         twttr.events.bind(
-                           'loaded',
-                           function (event) {
-                              document.getElementById('twCont').classList.remove('hide');
-                           }
-                         );
   }
 
   function hideInfo(d){
       // metaEl.innerHTML = '';
-  }
-
-  function type(d) {
-    d.frequency = +d.frequency;
-    d.median = +d.median;
-    return d;
   }
 
   function initVars() {
@@ -62,10 +56,9 @@
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    d3.tsv("data/data.tsv", type, function(error, data) {
-      x.domain(data.map(function(d) { return d.letter; }));
-      y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+    jQuery.get('data/data.json').done(function (data) {
+      x.domain(data.map(function(d) { return d.name; }));
+      y.domain([0, d3.max(data, function(d) { return d.protein; })]);
 
       svg.append("g")
       .attr("class", "x axis")
@@ -86,10 +79,10 @@
 
       container.append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.letter); })
+      .attr("x", function(d) { return x(d.name); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return 0; })
-      .attr("height", function(d) { return y(d.frequency); })
+      .attr("height", function(d) { return y(d.protein); })
       .on('mouseover', showInfo)
       .on('mouseout', hideInfo);
 
@@ -97,8 +90,8 @@
       .attr("class", "median")
       .attr("width", x.rangeBand())
       .attr("height", 3)
-      .attr("x", function(d) { return x(d.letter); })
-      .attr("y", function(d) { return y(d.median);  });
+      .attr("x", function(d) { return x(d.name); })
+      .attr("y", function(d) { return y(d.proteinByCal);  });
     });
   }
 
