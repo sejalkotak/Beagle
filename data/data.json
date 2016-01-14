@@ -8,7 +8,7 @@
         "description": "Use medium heat and a weight on top of the sandwich and you will have perfectly golden grilled cheeses every time"
     },
     {
-        "name": "Soybeans, cooked",
+        "name": "Soybeans",
         "quantity": "1 cup",
         "protein": 29,
         "proteinByCal": 9.6,
@@ -24,7 +24,7 @@
         "description": "The golden fried, crunchy, and juicy center of the seitan nuggets are nothing like you’ve had before."
     },
     {
-        "name": "Lentils, cooked",
+        "name": "Lentils",
         "quantity": "1 cup",
         "protein": 18,
         "proteinByCal": 7.8,
@@ -33,7 +33,7 @@
 
     },
     {
-        "name": "Black beans, cooked",
+        "name": "Black beans",
         "quantity": "1 cup",
         "protein": 15,
         "proteinByCal": 6.7,
@@ -41,7 +41,7 @@
         "description": "Curried black beans with tomatoes, onions and spices"
     },
     {
-        "name": "Kidney beans, cooked",
+        "name": "Kidney beans",
         "quantity": "1 cup",
         "protein": 15,
         "proteinByCal": 6.8,
@@ -49,7 +49,7 @@
         "description": "This is my all time favourite. Always up for it."
     },
     {
-        "name": "Chickpeas, cooked",
+        "name": "Chickpeas",
         "quantity": "1 cup",
         "protein": 15,
         "proteinByCal": 5.4,
@@ -58,7 +58,7 @@
 
     },
     {
-        "name": "Pinto beans, cooked",
+        "name": "Pinto beans",
         "quantity": "1 cup",
         "protein": 15,
         "proteinByCal": 6.3,
@@ -66,7 +66,7 @@
         "description": "Combining the nutritious beans with a whole grain and a healthy fat like avocado creates a high quality, simple, healthy, delicious, protein packed meal."
     },
     {
-        "name": "Lima beans, cooked",
+        "name": "Lima beans",
         "quantity": "1 cup",
         "protein": 15,
         "proteinByCal": 6.8,
@@ -74,7 +74,7 @@
         "description": "Like Rajma (kidney beans) lima beans are first boiled then simmered into spicy gravy made with onion, garlic, tomatoes and traditional Indian spices."
     },
     {
-        "name": "Black-eyed peas, cooked",
+        "name": "Black-eyed peas",
         "quantity": "1 cup",
         "protein": 13,
         "proteinByCal": 6.7,
@@ -101,102 +101,136 @@
         "name": "Tofu, firm",
         "quantity": "4 ounces",
         "protein": 11,
-        "proteinByCal": 10.6
+        "proteinByCal": 10.6,
+        "love": "Tofu Bhurji (Scrambled Tofu)",
+        "description": "A quick and easy recipe in which I have to fry the onions, green chili and saute the tomatoes and tofu. It gets ready in 15 minutes."
     },
     {
         "name": "Bagel",
         "quantity": "1 med. (3.5 oz)",
         "protein": 10,
-        "proteinByCal": 3.9
+        "proteinByCal": 3.9,
+        "love": "Bagel Pizza Bites",
+        "description": "This is my perfect snack for evenings. Easy to make and yummmy."
     },
     {
-        "name": "Quinoa, cooked",
+        "name": "Quinoa",
         "quantity": "1 cup",
         "protein": 8,
-        "proteinByCal": 3.7
+        "proteinByCal": 3.7,
+        "love": "Quinoa Vegetable Upma",
+        "description": "Upma is my favorite and I prepare it often. I love all varieties of upma, be it rava upma or arisi upma or aval upma or oats upma."
     },
     {
-        "name": "Peas, cooked",
+        "name": "Peas",
         "quantity": "1 cup",
         "protein": 8,
-        "proteinByCal": 6.6
+        "proteinByCal": 6.6,
+        "love": "Mutter masala",
+        "description": "Usually I combine peas with other veggies to make dishes like aloo matar, matar paneer, mushroom matar, gobi matar or aloo gajar matar. But at times i just make a gravy like this recipe or make a dry peas curry."
     },
     {
-        "name": "Textured Vegetable, cooked",
+        "name": "Textured Vegetable",
         "quantity": "1/2 cup",
         "protein": 8,
-        "proteinByCal": 15
+        "proteinByCal": 15,
+        "love": "Spicy Keema",
+        "description": "I make the kheema with lots of veggies and spices. I make my own spice mix instead of garam masala."
     },
     {
         "name": "Peanut butter",
         "quantity": "2 Tbsp",
         "protein": 8,
-        "proteinByCal": 4.1
+        "proteinByCal": 4.1,
+        "love": "Peanut butter and Brown bread",
+        "description": "The simplest yet the tastiest recipe."
     },
     {
-        "name": "Spaghetti, cooked",
+        "name": "Spaghetti",
         "quantity": "1 cup",
         "protein": 8,
-        "proteinByCal": 3.7
+        "proteinByCal": 3.7,
+        "love": "Spaghetti With Spicy Tomato Sauce",
+        "description": "I've been making this dish for years with fresh tomatoes from the garden/farmer's market. Absolutely quick & easy, and very satisfying!"
     },
     {
         "name": "Almonds",
         "quantity": "1/4 cup",
         "protein": 8,
-        "proteinByCal": 3.7
+        "proteinByCal": 3.7,
+        "love": "Soaked almonds",
+        "description": "Almonds soaked overnight in water and taken first thing in the morning is super benificial"
     },
     {
-        "name": "Soy milk, commercial, plain",
+        "name": "Soy milk",
         "quantity": "1 cup",
         "protein": 7,
-        "proteinByCal": 7
+        "proteinByCal": 7,
+        "love": "Chocolate Soy milk",
+        "description": "Instead of regular toned milk, I prefer flavoured soy milk and Chocolate is ofcourse my favourite"
     },
     {
         "name": "Whole wheat bread",
         "quantity": "2 slices",
         "protein": 7,
-        "proteinByCal": 5.2
+        "proteinByCal": 5.2,
+        "love": "Toasted wheat bread",
+        "description": "Wheat bread with fruits makes up my breakfast for most of the days. "
     },
     {
         "name": "Almond butter",
         "quantity": "2 Tbsp",
         "protein": 7,
-        "proteinByCal": 3.4
+        "proteinByCal": 3.4,
+        "love": "Almond Cranberry Oatmeal Cookies",
+        "description": "I have never made this myself, but once my mom made this for me and it was delicious. Best snack to have with evening tea."
     },
     {
-        "name": "Soy yogurt, plain",
+        "name": "Soy yogurt",
         "quantity": "8 ounces",
         "protein": 6,
-        "proteinByCal": 4
+        "proteinByCal": 4,
+        "love": "Plain Soy yogurt",
+        "description": "Not into yougurt much. So not one of my favourite dishes :)"
     },
     {
-        "name": "Bulgur, cooked",
+        "name": "Bulgur",
         "quantity": "1 cup",
         "protein": 6,
-        "proteinByCal": 3.7
+        "proteinByCal": 3.7,
+        "love": "Bulgur Biryani",
+        "description": " What I love about bulgur wheat is its nutty flavor and chewy texture and also it does not need cooking or needs very less cooking."
     },
     {
         "name": "Sunflower seeds",
         "quantity": "1/4 cup",
         "protein": 6,
-        "proteinByCal": 3.3
+        "proteinByCal": 3.3,
+        "love": "Tikki with Sunflower Seeds",
+        "description": "Tikki is very famous indian roadside dish. Add sunflower seeds to add the goodness."
     },
     {
         "name": "Cashews",
         "quantity": "1/4 cup",
         "protein": 5,
-        "proteinByCal": 2.7
+        "proteinByCal": 2.7,
+        "love": "Roasted Cashews",
+        "description": "My favourite chai-time snack."
     },
     {
-        "name": "Spinach, cooked",
+        "name": "Spinach",
         "quantity": "1 cup",
         "protein": 5,
-        "proteinByCal": 4.8
+        "proteinByCal": 4.8,
+        "love": "Palak dal",
+        "description": "Spinach with lentils make a very healthy and tasty combination."
     },
     {
-        "name": "Broccoli, cooked",
+        "name": "Broccoli",
         "quantity": "1 cup",
         "protein": 4,
-        "proteinByCal": 4
+        "proteinByCal": 4,
+        "love": "Sauted Broccoli",
+        "description": "This is love of my life after my shih tzu, cooper. Give me Broccoli in any form."
     }
 ]
