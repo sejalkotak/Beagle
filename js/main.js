@@ -29,7 +29,7 @@
     '</div>' +
     '<p>' +
     '</p>';
-    $(this).css('fill', '#FF686B');
+    $(this).css('fill', '#8FB557');
 
     if(!skip){
       hideInfo.call(currentEl, currentEl.__data__);
@@ -40,7 +40,7 @@
   }
 
   function hideInfo(d){
-    $(this).css('fill', '#FFA69E');
+    $(this).css('fill', '#B3D480');
     if(stopped) {
       stopped = false;
       initTimer();

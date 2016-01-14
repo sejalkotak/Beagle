@@ -25,15 +25,15 @@ text {
 }
 
 .bar {
-  fill: #FFA69E;
+  fill: #B3D480;
 }
 
 .bar:hover {
-  fill: #FF686B ;
+  fill: #8FB557;
 }
 
 .median {
-  fill: #E83F6F;
+  fill: #4F785B;
 }
 
 #desc {
@@ -79,9 +79,9 @@ div#container {
 .heart {
     height: 16px;
     width: 16px;
-    fill: #FF686B;
+    fill: #B3D480;
     stroke-width: 1px;
-    stroke: #FF686B;
+    stroke: #B3D480;
     stroke-opacity: 1;
     shape-rendering: crispedges;
     stroke-dasharray: 2,2;
