@@ -199,7 +199,7 @@
         "protein": 6,
         "proteinByCal": 3.7,
         "love": "Bulgur Biryani",
-        "description": " What I love about bulgur wheat is its nutty flavor and chewy texture and also it does not need cooking or needs very less cooking."
+        "description": "What I love about bulgur wheat is its nutty flavor and chewy texture and also it does not need cooking or needs very less cooking."
     },
     {
         "name": "Sunflower seeds",
@@ -231,6 +231,6 @@
         "protein": 4,
         "proteinByCal": 4,
         "love": "Sauted Broccoli",
-        "description": "This is love of my life after my shih tzu, cooper. Give me Broccoli in any form."
+        "description": "This is love of my life second only to my dog, cooper. Give me Broccoli in any form."
     }
 ]
