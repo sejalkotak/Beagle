@@ -40,23 +40,6 @@ text {
   fill: #4F785B;
 }
 
-#desc {
-    padding: 30px 50px;
-    background: #F7F7F7;
-    color: #c0c0c0;
-}
-
-#desc p {
-    line-height: 1.4;    
-    font-size: 12px;
-    font-weight: 300;
-    margin: 10px 0;
-}
-
-#header {
-    font-size: 22px;
-    font-weight: 600;
-}
 
 div#container {
     margin: 50px 20px;
