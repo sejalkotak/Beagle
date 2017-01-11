@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', serif;
   margin: 0;
@@ -36,44 +40,23 @@ text {
   fill: #4F785B;
 }
 
-#desc {
-    padding: 30px 50px;
-    background: #F7F7F7;
-    color: #c0c0c0;
-}
-
-#desc p {
-    line-height: 1.4;
-    width: 960px;
-    font-size: 12px;
-    font-weight: 300;
-    margin: 10px 0;
-}
-
-#header {
-    font-size: 22px;
-    font-weight: 600;
-}
 
 div#container {
-    padding: 50px 0 0 30px;
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: row;
 }
 
-#container > div {
-  float: left;
+.child {
+  align-self: flex-end;
 }
 
 #meta {
-    height: 470px;
-    position: relative;
-    width: 400px;
-    box-sizing: border-box;
-    padding-left: 50px;
+    
 }
 
-#stats {
-    position: absolute;
-    bottom: 0;
+#stats {    
+
     color: #464646;
 }
 .heart {
