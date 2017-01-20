@@ -14,7 +14,7 @@
         "proteinByCal": 9.6,
         "love": "Zucchini stuffed with Soyabeans",
         "description": "The freshness of zucchini topped with sauteed soya and baked lovely. A snack for a perfect evening!"
-    },   
+    },
     {
         "name": "Lentils",
         "quantity": "1 cup",
@@ -22,7 +22,6 @@
         "proteinByCal": 7.8,
         "love": "Khichdi",
         "description": "Khichdi is an Indian preparation made from rice and lentils. I add my favorite veggies to it like beans, carrot, onion, with lots of corriander topping."
-
     },
     {
         "name": "Black beans",
@@ -47,8 +46,7 @@
         "proteinByCal": 5.4,
         "love": " Masala Channa",
         "description": "Confused over what to cook for lunch? This sensational recipe will fix you with a wholesome and filling afternoon meal."
-
-    },   
+    },
     {
         "name": "Lima beans",
         "quantity": "1 cup",
@@ -64,7 +62,7 @@
         "proteinByCal": 6.7,
         "love": "Lobia Masala Curry",
         "description": "In Gujarati it is known as chawli or chovli. Lobia masala sabzi goes really well with hot chappati, phulka or paratha. Even they taste great with steamed rice or jeera rice."
-    },    
+    },
     {
         "name": "Veggie baked beans",
         "quantity": "1 cup",
@@ -80,7 +78,7 @@
         "proteinByCal": 10.6,
         "love": "Tofu Bhurji (Scrambled Tofu)",
         "description": "A quick and easy recipe in which I have to fry the onions, green chili and saute the tomatoes and tofu. It gets ready in 15 minutes."
-    },    
+    },
     {
         "name": "Quinoa",
         "quantity": "1 cup",
@@ -96,7 +94,7 @@
         "proteinByCal": 6.6,
         "love": "Mutter masala",
         "description": "Usually I combine peas with other veggies to make dishes like aloo matar, matar paneer, mushroom matar, gobi matar or aloo gajar matar. But at times i just make a gravy like this recipe or make a dry peas curry."
-    },    
+    },
     {
         "name": "Peanut butter",
         "quantity": "2 Tbsp",
@@ -104,7 +102,7 @@
         "proteinByCal": 4.1,
         "love": "Peanut butter and Brown bread",
         "description": "The simplest yet the tastiest recipe."
-    },   
+    },
     {
         "name": "Almonds",
         "quantity": "1/4 cup",
@@ -136,7 +134,7 @@
         "proteinByCal": 3.4,
         "love": "Almond Cranberry Oatmeal Cookies",
         "description": "I have never made this myself, but once my mom made this for me and it was delicious. Best snack to have with evening tea."
-    },   
+    },
     {
         "name": "Bulgur",
         "quantity": "1 cup",
