@@ -14,15 +14,7 @@
         "proteinByCal": 9.6,
         "love": "Zucchini stuffed with Soyabeans",
         "description": "The freshness of zucchini topped with sauteed soya and baked lovely. A snack for a perfect evening!"
-    },
-    // {
-    //     "name": "Seitan",
-    //     "quantity": "3 ounces",
-    //     "protein": 21,
-    //     "proteinByCal": 17.5,
-    //     "love": "Coconut Crusted Seitan, Charred Corn Lime Rice, & Mango Salsa",
-    //     "description": "The golden fried, crunchy, and juicy center of the seitan nuggets are nothing like you’ve had before."
-    // },
+    },   
     {
         "name": "Lentils",
         "quantity": "1 cup",
@@ -56,15 +48,7 @@
         "love": " Masala Channa",
         "description": "Confused over what to cook for lunch? This sensational recipe will fix you with a wholesome and filling afternoon meal."
 
-    },
-    // {
-    //     "name": "Pinto beans",
-    //     "quantity": "1 cup",
-    //     "protein": 15,
-    //     "proteinByCal": 6.3,
-    //     "love": "Creamy Pinto Beans with Quinoa & Sliced Avocado",
-    //     "description": "Combining the nutritious beans with a whole grain and a healthy fat like avocado creates a high quality, simple, healthy, delicious, protein packed meal."
-    // },
+    },   
     {
         "name": "Lima beans",
         "quantity": "1 cup",
@@ -80,15 +64,7 @@
         "proteinByCal": 6.7,
         "love": "Lobia Masala Curry",
         "description": "In Gujarati it is known as chawli or chovli. Lobia masala sabzi goes really well with hot chappati, phulka or paratha. Even they taste great with steamed rice or jeera rice."
-    },
-    // {
-    //     "name": "Veggie burger",
-    //     "quantity": "1 patty",
-    //     "protein": 13,
-    //     "proteinByCal": 18.6,
-    //     "love": "Caramelized Onion-Veggie Burger",
-    //     "description": "Lentils, onions, cremini mushrooms, and breadcrumbs make up the base of this tasty burger. Even though it's vegetarian, it still delivers 14 grams of energizing protein plus essential minerals."
-    // },
+    },    
     {
         "name": "Veggie baked beans",
         "quantity": "1 cup",
@@ -104,15 +80,7 @@
         "proteinByCal": 10.6,
         "love": "Tofu Bhurji (Scrambled Tofu)",
         "description": "A quick and easy recipe in which I have to fry the onions, green chili and saute the tomatoes and tofu. It gets ready in 15 minutes."
-    },
-    // {
-    //     "name": "Bagel",
-    //     "quantity": "1 med. (3.5 oz)",
-    //     "protein": 10,
-    //     "proteinByCal": 3.9,
-    //     "love": "Bagel Pizza Bites",
-    //     "description": "This is my perfect snack for evenings. Easy to make and yummmy."
-    // },
+    },    
     {
         "name": "Quinoa",
         "quantity": "1 cup",
@@ -128,15 +96,7 @@
         "proteinByCal": 6.6,
         "love": "Mutter masala",
         "description": "Usually I combine peas with other veggies to make dishes like aloo matar, matar paneer, mushroom matar, gobi matar or aloo gajar matar. But at times i just make a gravy like this recipe or make a dry peas curry."
-    },
-    // {
-    //     "name": "Textured Vegetable",
-    //     "quantity": "1/2 cup",
-    //     "protein": 8,
-    //     "proteinByCal": 15,
-    //     "love": "Spicy Keema",
-    //     "description": "I make the kheema with lots of veggies and spices. I make my own spice mix instead of garam masala."
-    // },
+    },    
     {
         "name": "Peanut butter",
         "quantity": "2 Tbsp",
@@ -144,15 +104,7 @@
         "proteinByCal": 4.1,
         "love": "Peanut butter and Brown bread",
         "description": "The simplest yet the tastiest recipe."
-    },
-    // {
-    //     "name": "Spaghetti",
-    //     "quantity": "1 cup",
-    //     "protein": 8,
-    //     "proteinByCal": 3.7,
-    //     "love": "Spaghetti With Spicy Tomato Sauce",
-    //     "description": "I've been making this dish for years with fresh tomatoes from the garden/farmer's market. Absolutely quick & easy, and very satisfying!"
-    // },
+    },   
     {
         "name": "Almonds",
         "quantity": "1/4 cup",
@@ -184,15 +136,7 @@
         "proteinByCal": 3.4,
         "love": "Almond Cranberry Oatmeal Cookies",
         "description": "I have never made this myself, but once my mom made this for me and it was delicious. Best snack to have with evening tea."
-    },
-    // {
-    //     "name": "Soy yogurt",
-    //     "quantity": "8 ounces",
-    //     "protein": 6,
-    //     "proteinByCal": 4,
-    //     "love": "Plain Soy yogurt",
-    //     "description": "Not into yougurt much. So not one of my favourite dishes :)"
-    // },
+    },   
     {
         "name": "Bulgur",
         "quantity": "1 cup",
